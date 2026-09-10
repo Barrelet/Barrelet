@@ -7,6 +7,8 @@ Background and contact on [LinkedIn](https://www.linkedin.com/in/carlbarrelet).
 ## Current work
 
 **[agent-alpha-bench](https://github.com/Barrelet/agent-alpha-bench)** — An evaluation
-harness for LLM trading agents. US equities, daily screener, paper-trading engine,
-walk-forward evaluation, and non-LLM controls, so that a model has to beat a rule-based
-baseline before it gets credit. Runs locally.
+harness that puts LLMs in the seat of a medium-term US-equity investor. Every model faces
+the same 50 names, rules and costs in a paper-trading replay, and is scored against
+rule-based agents and 1,000 random traders, so that it only gets credit for beating what
+chance and simple rules already achieve. Local models via Ollama; any OpenAI-compatible
+API otherwise. Results are cached, so every run is reproducible.
